@@ -1,4 +1,4 @@
-## Rename Bot - Clone of  [AnyDLBot](https://telegram.dog/AnyDLBot)
+## Rename Bot
 ---
 
 An Open Source Rename Telegram RoBot
@@ -11,13 +11,12 @@ An Open Source Rename Telegram RoBot
 
 #### The Easy Way
 
-**Watch our Video for Create own Bot** - 👉 https://youtu.be/yYHrSnuYXpA
+
 
 ### You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/erichdanikeninfo/TG-Rename-Bot/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/dakshkohli23/Roronoa-Zoro-Bot)
 
-**upgrade** your subscription for [@AnyDLBot](https://telegram.dog/AnyDLBot) without having to run anything on your own
 
 #### The Hard Way
 
