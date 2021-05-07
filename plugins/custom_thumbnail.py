@@ -3,6 +3,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 import numpy
 import os
@@ -17,6 +18,11 @@ else:
 
 # the Strings used for this "thing"
 from translation import Translation
+from pyrogram import Client, filters
+
+import database.database as sql
+from PIL import Image
+from database.database import *
 
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
