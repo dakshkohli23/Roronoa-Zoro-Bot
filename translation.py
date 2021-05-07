@@ -1,7 +1,8 @@
 class Translation(object):
-    START_TEXT = """Hello {}, \n This is Roronoa Zoro Rename Bot!
+    START_TEXT = """Hello {},\nI'm Roronoa Zoro Rename Bot!
 
 <b>Please send me any Telegram file and reply to that file to /rename New Name.extension</b>
+
 
 /help for more details.."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
