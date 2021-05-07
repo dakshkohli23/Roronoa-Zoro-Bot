@@ -1,5 +1,5 @@
 {
-  "name": "TG Rename Bot",
+  "name": "Roronoa Zoro Rename Bot",
   "description": "Telegram's best Open Source Rename Bot. Create your Fork now.",
   "keywords": [
     "telegram",
@@ -8,9 +8,9 @@
     "source",
     "Rename"
   ],
-  "success_url": "https://telegram.dog/AnyDLBot",
-  "website": "https://github.com/SpEcHiDe/AnyDLBot",
-  "repository": "https://github.com/erichdanikeninfo/TG-Rename-Bot",
+  "success_url": "https://t.me/Cartoon_Seriesz",
+  "website": "https://github.com/dakshkohli23",
+  "repository": "https://github.com/dakshkohli23/Roronoa-Zoro-Bot",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -20,8 +20,8 @@
       "description": "Your bot token, as a string.",
       "value": ""
     },
-    "CHAT_BASE_TOKEN": {
-      "description": "Your chat base token, as a string.",
+    "UPDATE_CHANNEL": {
+      "description": "For Force Subscribe. Paste your Update channel USERNAME (without @).. Also Make The Bot Admin In That Channel!! ",
       "value": ""
     },
     "APP_ID": {
@@ -34,7 +34,7 @@
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
-      "value": "7351948 466337795"
+      "value": ""
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
@@ -56,8 +56,6 @@
     }
   ],
   "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  }, {
     "url": "heroku/python"
   }],
   "formation": {
