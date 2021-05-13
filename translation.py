@@ -22,6 +22,7 @@ class Translation(object):
     CUSTOM_CAPTION_UL_FILE = " "
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
+    ABOUT_ME = """<b>About Me: \n Telegram File Renamer Bot Which Can Rename A Telegram Files. \n You Can Set Permanent Thumbnail For The File So You Don't Have To Send Custom Thumbs All The Time.\n \nI can also convert files into videos \n Feedback @Dlaize If You Found Me Useful</b>"""
     HELP_USER = """
     <b><u>Rename</u></b>
     ➠ Send me any telegram file or media.
@@ -51,5 +52,5 @@ Free users only 1 request per 30 minutes.
 The given file name has {num} characters.
 
 <b>Essays Not allowed in Telegram file name!</b>
-©️ <code>@ReNameBot</code>
+©️ <code>@Dlaize</code>
 Please short your file name and try again!"""
