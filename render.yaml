@@ -19,9 +19,9 @@ services:
       - key: CHUNK_SIZE 
         sync: false
       - key: TG_BOT_TOKEN 
-        sync: false 
+        sync: false
       - key: UPDATE_CHANNEL 
-        sync: WEBHOOK
-      - key: false
+        sync: false
+      - key: WEBHOOK
         sync: false    
     autoDeploy: false 
