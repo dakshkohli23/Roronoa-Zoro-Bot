@@ -1,0 +1,27 @@
+services:
+  - type: web
+    plan: free
+    name: Roronoa-Zoro-Bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    repo: https://github.com/dakshkohli23/Roronoa-Zoro-Bot.git      
+    branch: main
+    envVars:
+      - key: API_HASH 
+        sync: false
+      - key: APP_ID 
+        sync: false
+      - key: AUTH_USERS 
+        sync: false
+      - key: BANNED_USERS 
+        sync: false
+      - key: CHUNK_SIZE 
+        sync: 128
+      - key: TG_BOT_TOKEN 
+        sync: false 
+      - key: UPDATE_CHANNEL 
+        sync: WEBHOOK
+      - key: ANYTHING 
+        sync: false    
+    autoDeploy: false 
