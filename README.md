@@ -11,7 +11,9 @@ An Open Source Rename Telegram RoBot
 
 #### The Easy Way
 
+## Deploy To Render 
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/dakshkohli23/Roronoa-Zoro-Bot)
 
 ### You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
