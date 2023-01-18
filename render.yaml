@@ -17,11 +17,11 @@ services:
       - key: BANNED_USERS 
         sync: false
       - key: CHUNK_SIZE 
-        sync: 128
+        sync: '128'
       - key: TG_BOT_TOKEN 
         sync: false 
       - key: UPDATE_CHANNEL 
         sync: WEBHOOK
-      - key: ANYTHING 
+      - key: 'ANYTHING'
         sync: false    
     autoDeploy: false 
